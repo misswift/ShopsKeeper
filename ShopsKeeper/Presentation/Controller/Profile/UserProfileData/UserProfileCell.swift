@@ -14,7 +14,7 @@ class UserProfileCell: UITableViewCell {
     
     let labelUP : UILabel = {
         let lb = UILabel(frame: CGRect(x: 0, y: 0, width: 120, height: 50))
-        lb.textColor = UIColor(hex:  "#3F5C70")
+        lb.textColor = UIColor (hex:  "#3F5C70")
         lb.textAlignment = .left
         return lb
     }()
