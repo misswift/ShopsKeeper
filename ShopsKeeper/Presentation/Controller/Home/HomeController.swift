@@ -13,6 +13,12 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
         collectionView.register(HomeGroupCell.self, forCellWithReuseIdentifier: cellId )
         
         collectionView.register(HomePageHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerId)
+        
+        fetchData()
+    }
+    
+    fileprivate func fetchData(){
+        print ("fetching data")
     }
     
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
@@ -34,7 +40,7 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return .init(width: view.frame.width, height: 250)
+        return .init(width: view.frame.width, height: 300)
     }
     
    

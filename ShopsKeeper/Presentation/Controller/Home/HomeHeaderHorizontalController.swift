@@ -20,7 +20,7 @@ class HomeHeaderHorizontalController: BaseListViewController, UICollectionViewDe
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        .init(width: view.frame.width, height: view.frame.height)
+        .init(width: view.frame.width-32, height: view.frame.height)
     }
     
     

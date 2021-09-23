@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1324096826FC15AD00ADB0DA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324096726FC15AD00ADB0DA /* Service.swift */; };
 		132CCD7826D61EE4008ECAB5 /* HomeHorizontalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132CCD7726D61EE4008ECAB5 /* HomeHorizontalController.swift */; };
 		132CCD7E26D6254B008ECAB5 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132CCD7D26D6254B008ECAB5 /* UIView+Layout.swift */; };
 		132CCD8626D626EE008ECAB5 /* BaseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132CCD8526D626EE008ECAB5 /* BaseListViewController.swift */; };
@@ -14,6 +15,8 @@
 		1361DAA726F42C96007429B3 /* HomeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361DAA626F42C96007429B3 /* HomeHeaderCell.swift */; };
 		1361DAAC26F42F71007429B3 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361DAAB26F42F71007429B3 /* Extentions.swift */; };
 		1361DAB126F431AF007429B3 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1361DAB026F431AF007429B3 /* VerticalStackView.swift */; };
+		13658C1426FCEE4400AD859B /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13658C1326FCEE4400AD859B /* SearchResult.swift */; };
+		1367EAB426F7420A0053388C /* HomeRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1367EAB326F7420A0053388C /* HomeRowCell.swift */; };
 		137C297526491534001CE6DB /* UserProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C297426491534001CE6DB /* UserProfileCell.swift */; };
 		137C297A26491555001CE6DB /* UserDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C297926491555001CE6DB /* UserDataCell.swift */; };
 		137C297F2649156F001CE6DB /* UserSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C297E2649156F001CE6DB /* UserSettingsCell.swift */; };
@@ -33,7 +36,6 @@
 		13A99324263823A600D3A21C /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A99323263823A600D3A21C /* MenuBar.swift */; };
 		13AC01BF26EFD6B000C68B4F /* HomeHeaderHorizontalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC01BE26EFD6B000C68B4F /* HomeHeaderHorizontalController.swift */; };
 		13BA205F26D3B5B0006DFF33 /* HomeGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BA205E26D3B5B0006DFF33 /* HomeGroupCell.swift */; };
-		13BA206426D3C0F6006DFF33 /* ExtentionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BA206326D3C0F6006DFF33 /* ExtentionUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1324096726FC15AD00ADB0DA /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		132CCD7726D61EE4008ECAB5 /* HomeHorizontalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHorizontalController.swift; sourceTree = "<group>"; };
 		132CCD7D26D6254B008ECAB5 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		132CCD8526D626EE008ECAB5 /* BaseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseListViewController.swift; path = ../../../../../../../../Documents/BaseListViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 		1361DAA626F42C96007429B3 /* HomeHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderCell.swift; sourceTree = "<group>"; };
 		1361DAAB26F42F71007429B3 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		1361DAB026F431AF007429B3 /* VerticalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		13658C1326FCEE4400AD859B /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		1367EAB326F7420A0053388C /* HomeRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRowCell.swift; sourceTree = "<group>"; };
 		137C297426491534001CE6DB /* UserProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileCell.swift; sourceTree = "<group>"; };
 		137C297926491555001CE6DB /* UserDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataCell.swift; sourceTree = "<group>"; };
 		137C297E2649156F001CE6DB /* UserSettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsCell.swift; sourceTree = "<group>"; };
@@ -86,7 +91,6 @@
 		13A99323263823A600D3A21C /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		13AC01BE26EFD6B000C68B4F /* HomeHeaderHorizontalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderHorizontalController.swift; sourceTree = "<group>"; };
 		13BA205E26D3B5B0006DFF33 /* HomeGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGroupCell.swift; sourceTree = "<group>"; };
-		13BA206326D3C0F6006DFF33 /* ExtentionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,14 @@
 			path = MultipleCells;
 			sourceTree = "<group>";
 		};
+		1324096626FC158100ADB0DA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1324096726FC15AD00ADB0DA /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		132CCD7C26D624AC008ECAB5 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +161,7 @@
 			children = (
 				13BA205E26D3B5B0006DFF33 /* HomeGroupCell.swift */,
 				1361DAA626F42C96007429B3 /* HomeHeaderCell.swift */,
+				1367EAB326F7420A0053388C /* HomeRowCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -186,13 +199,13 @@
 		13A992BB2637FC6E00D3A21C /* ShopsKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				1324096626FC158100ADB0DA /* Service */,
 				132CCD7C26D624AC008ECAB5 /* Helpers */,
 				13A992F72637FDD000D3A21C /* Application */,
 				13A992FB2637FE0F00D3A21C /* Presentation */,
 				13A992C82637FC7100D3A21C /* Assets.xcassets */,
 				13A992CD2637FC7100D3A21C /* Info.plist */,
 				13A992C52637FC6E00D3A21C /* ShopsKeeper.xcdatamodeld */,
-				13BA206326D3C0F6006DFF33 /* ExtentionUIView.swift */,
 			);
 			path = ShopsKeeper;
 			sourceTree = "<group>";
@@ -245,6 +258,7 @@
 		13A992FA2637FDEC00D3A21C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				13658C1326FCEE4400AD859B /* SearchResult.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -428,6 +442,7 @@
 			files = (
 				132CCD7826D61EE4008ECAB5 /* HomeHorizontalController.swift in Sources */,
 				132CCD8626D626EE008ECAB5 /* BaseListViewController.swift in Sources */,
+				1324096826FC15AD00ADB0DA /* Service.swift in Sources */,
 				13A992C12637FC6E00D3A21C /* HomeController.swift in Sources */,
 				13AC01BF26EFD6B000C68B4F /* HomeHeaderHorizontalController.swift in Sources */,
 				137C297F2649156F001CE6DB /* UserSettingsCell.swift in Sources */,
@@ -437,8 +452,8 @@
 				13A992C72637FC6E00D3A21C /* ShopsKeeper.xcdatamodeld in Sources */,
 				132CCD7E26D6254B008ECAB5 /* UIView+Layout.swift in Sources */,
 				13A99324263823A600D3A21C /* MenuBar.swift in Sources */,
+				13658C1426FCEE4400AD859B /* SearchResult.swift in Sources */,
 				13A9930E2638202100D3A21C /* BasketController.swift in Sources */,
-				13BA206426D3C0F6006DFF33 /* ExtentionUIView.swift in Sources */,
 				13A993182638207800D3A21C /* ProfileController.swift in Sources */,
 				1361DAAC26F42F71007429B3 /* Extentions.swift in Sources */,
 				1361DAB126F431AF007429B3 /* VerticalStackView.swift in Sources */,
@@ -447,6 +462,7 @@
 				13A992F32637FDCA00D3A21C /* MainTabBarController.swift in Sources */,
 				13A992BD2637FC6E00D3A21C /* AppDelegate.swift in Sources */,
 				134956AF26EE4DDE00C6ECC3 /* HomePageHeader.swift in Sources */,
+				1367EAB426F7420A0053388C /* HomeRowCell.swift in Sources */,
 				1361DAA726F42C96007429B3 /* HomeHeaderCell.swift in Sources */,
 				13A992BF2637FC6E00D3A21C /* SceneDelegate.swift in Sources */,
 			);

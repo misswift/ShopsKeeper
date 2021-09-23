@@ -2,7 +2,7 @@
 //  UIView+Layout.swift
 //  AppStoreJSONApis
 //
-//  Created by Brian Voong on 2/10/19.
+//
 //  Copyright © 2019 Brian Voong. All rights reserved.
 //
 

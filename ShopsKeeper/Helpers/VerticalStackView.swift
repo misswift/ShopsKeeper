@@ -8,7 +8,7 @@
 import UIKit
 
 class VerticalStackView: UIStackView {
-    init (arrangedSubView: [UIView], spacing: CGFloat = 0) {
+    init (arrangedSubviews: [UIView], spacing: CGFloat = 0) {
         super.init(frame: .zero)
         
         arrangedSubviews.forEach({addArrangedSubview($0)})

@@ -9,26 +9,27 @@ import UIKit
 
 class HomeHeaderCell: UICollectionViewCell {
     
-    let actionImage : UIImageView = {
-        let actionImag = UIImageView()
-        actionImag.backgroundColor = .cyan
-        actionImag.clipsToBounds = true
-        return actionImag
-    }()
- 
+    let companyLabel = UILabel(text: "Shops", font: .boldSystemFont(ofSize: 12))
+    let imageView = UIImageView(cornerRadius: 13)
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-      
-       // backgroundColor = .red
         
-        addSubview(actionImage)
-        actionImage.anchor(top: topAnchor, leading: leadingAnchor, bottom: bottomAnchor, trailing: trailingAnchor)
-     
+        companyLabel.textColor = .blue
+        imageView.backgroundColor = .red
         
+        let stackView = VerticalStackView(arrangedSubviews: [
+            companyLabel,
+            imageView
+            ], spacing: 12)
+        addSubview(stackView)
+        stackView.fillSuperview(padding: .init(top: 16, left: 12, bottom: 12, right: 0))
     }
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    required init?(coder aDecoder: NSCoder) {
+        fatalError()
     }
+    
 }
+    
+
